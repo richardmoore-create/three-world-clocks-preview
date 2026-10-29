@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f5ec" />
+    <meta name="description" content="Three places. One moment. Live analog and digital clocks for US Eastern Time, London, and India." />
+    <title>A Matter of Time — Richard’s Puzzle Playground</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <span class="masthead-note">A SMALL WINDOW ON THE WORLD</span>
+        <p class="wordmark">Richard’s<br /><em>Puzzle Playground</em></p>
+        <span class="edition">THE CLOCK EDITION <span aria-hidden="true">↗</span></span>
+      </header>
+      <main>
+        <section class="hero" aria-labelledby="page-title">
+          <p class="eyebrow">HERE, THERE &amp; EVERYWHEN</p>
+          <div class="title-row">
+            <svg class="hero-doodle" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="36"/><ellipse cx="50" cy="50" rx="17" ry="36"/><path d="M15 50h70M22 28q28 16 56 0M22 72q28-16 56 0M7 11l9 8m72 65 6 8M83 9l-7 12M8 79l11-4"/></svg>
+            <h1 id="page-title">A Matter of Time</h1>
+            <svg class="hero-doodle sun-doodle" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="25"/><path d="M50 7v11m0 64v11M7 50h11m64 0h11M20 20l8 8m44 44 8 8M20 80l8-8m44-44 8-8M39 45v3m22-3v3M40 58q10 10 20 0"/></svg>
+          </div>
+          <p class="intro">Three places. One moment. A little perspective, around the clock.</p>
+        </section>
+        <section class="clock-grid" aria-label="World clocks">
+          <article class="clock-panel eastern-panel" data-clock="eastern" aria-labelledby="eastern-title">
+            <div class="panel-top"><span class="panel-number">NO. 01</span><svg class="small-doodle" viewBox="0 0 80 55" aria-hidden="true"><path d="M19 23h33l-3 24H23zM52 27q24-3 16 12-5 5-17 1M13 49h47M27 17c-10-8 8-7 0-15m13 15c-10-8 8-7 0-15"/></svg></div>
+            <p class="location-kicker">THE UNITED STATES</p>
+            <h2 id="eastern-title">New York</h2>
+            <p class="location-detail">US Eastern Time</p>
+            <div class="clock-wrap">
+              <svg class="clock-face face-eastern" viewBox="0 0 240 240" aria-hidden="true">
+                <path class="clock-frame" d="M120 14C145 3 158 17 170 30 197 26 212 44 211 67 233 79 236 100 226 120 237 143 227 164 210 174 213 200 192 216 170 210 155 235 132 233 120 226 98 237 78 227 69 210 43 214 25 194 30 170 6 155 7 134 14 120 4 98 14 77 31 68 25 44 46 25 69 30 82 8 105 6 120 14Z"/>
+                <circle class="dial" cx="120" cy="120" r="88"/><circle class="minute-marks" cx="120" cy="120" r="79"/>
+                <g class="numerals"><text x="120" y="61">12</text><text x="185" y="128">3</text><text x="120" y="192">6</text><text x="55" y="128">9</text></g>
+                <g class="hands"><path class="hour-hand" data-hand="hour" d="M120 130V76"/><path class="minute-hand" data-hand="minute" d="M120 135V52"/><path class="second-hand" data-hand="second" d="M120 139V50"/><circle cx="120" cy="120" r="5"/></g>
+              </svg>
+            </div>
+            <div class="time-block"><p class="digital-line"><span class="sr-only">Current time in US Eastern Time: </span><time data-time><span data-digits>—:—</span> <span class="period" data-period></span></time></p><p class="local-date" data-date>Finding the moment…</p><p class="zone-label" data-zone></p></div>
+            <p class="panel-caption">“In a New York minute.”</p>
+          </article>
+
+          <article class="clock-panel london-panel" data-clock="london" aria-labelledby="london-title">
+            <div class="panel-top"><span class="panel-number">NO. 02</span><svg class="small-doodle" viewBox="0 0 80 55" aria-hidden="true"><path d="M9 31Q37-14 68 31q-10-8-20 0-10-8-20 0-10-8-19 0ZM39 8v36q0 12 11 7 5-4 1-8M39 3v5"/></svg></div>
+            <p class="location-kicker">THE UNITED KINGDOM</p>
+            <h2 id="london-title">London</h2>
+            <p class="location-detail">A stone’s throw from Greenwich</p>
+            <div class="clock-wrap">
+              <svg class="clock-face face-london" viewBox="0 0 240 240" aria-hidden="true">
+                <rect class="clock-frame" x="18" y="18" width="204" height="204" rx="28"/>
+                <circle class="dial" cx="120" cy="120" r="88"/><circle class="minute-marks" cx="120" cy="120" r="79"/>
+                <g class="numerals roman"><text x="120" y="61">XII</text><text x="185" y="128">III</text><text x="120" y="192">VI</text><text x="55" y="128">IX</text></g>
+                <g class="hands"><path class="hour-hand" data-hand="hour" d="M120 130V76"/><path class="minute-hand" data-hand="minute" d="M120 135V52"/><path class="second-hand" data-hand="second" d="M120 139V50"/><circle cx="120" cy="120" r="5"/></g>
+              </svg>
+            </div>
+            <div class="time-block"><p class="digital-line"><span class="sr-only">Current time in London: </span><time data-time><span data-digits>—:—</span> <span class="period" data-period></span></time></p><p class="local-date" data-date>Finding the moment…</p><p class="zone-label" data-zone></p></div>
+            <p class="panel-caption">“Always time for a cuppa.”</p>
+          </article>
+
+          <article class="clock-panel india-panel" data-clock="india" aria-labelledby="india-title">
+            <div class="panel-top"><span class="panel-number">NO. 03</span><svg class="small-doodle" viewBox="0 0 80 55" aria-hidden="true"><path d="m40 3 23 17-17 22-23-17ZM40 3l6 39M23 25l40-5M46 42c-14 5-9 10-27 9M34 46l3 6m-10-4-1 7"/></svg></div>
+            <p class="location-kicker">THE INDIAN SUBCONTINENT</p>
+            <h2 id="india-title">India</h2>
+            <p class="location-detail">One country, one time</p>
+            <div class="clock-wrap">
+              <svg class="clock-face face-india" viewBox="0 0 240 240" aria-hidden="true">
+                <path class="sun-rays" d="M120 5v15m0 200v15M5 120h15m200 0h15M39 39l11 11m140 140 11 11M39 201l11-11M190 50l11-11M76 14l6 15m76 182 6 15M14 76l15 6m182 76 15 6M14 164l15-6m182-76 15-6M76 226l6-15m76-182 6-15"/><circle class="clock-frame" cx="120" cy="120" r="97"/>
+                <circle class="dial" cx="120" cy="120" r="88"/><circle class="minute-marks" cx="120" cy="120" r="79"/>
+                <g class="numerals"><text x="120" y="61">12</text><text x="185" y="128">3</text><text x="120" y="192">6</text><text x="55" y="128">9</text></g>
+                <g class="hands"><path class="hour-hand" data-hand="hour" d="M120 130V76"/><path class="minute-hand" data-hand="minute" d="M120 135V52"/><path class="second-hand" data-hand="second" d="M120 139V50"/><circle cx="120" cy="120" r="5"/></g>
+              </svg>
+            </div>
+            <div class="time-block"><p class="digital-line"><span class="sr-only">Current time in India: </span><time data-time><span data-digits>—:—</span> <span class="period" data-period></span></time></p><p class="local-date" data-date>Finding the moment…</p><p class="zone-label" data-zone></p></div>
+            <p class="panel-caption">“A little ahead of the day.”</p>
+          </article>
+        </section>
+        <p class="clock-error" id="clock-error" role="status" hidden>We couldn’t read the time. Please refresh the page to try again.</p>
+        <noscript><p class="clock-error">Turn on JavaScript to see the live clocks. Your browser supplies the current time.</p></noscript>
+        <aside class="closing-note"><span class="tiny-star" aria-hidden="true">✳</span><p>Different hours. <em>The same little planet.</em></p><span class="tiny-star" aria-hidden="true">✳</span></aside>
+      </main>
+      <footer class="page-footer"><span>THREE CLOCKS · COUNTLESS POSSIBILITIES</span><span>Made for the present.</span><span class="live-note"><span aria-hidden="true">●</span> LIVE, WHEREVER YOU ARE</span></footer>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
